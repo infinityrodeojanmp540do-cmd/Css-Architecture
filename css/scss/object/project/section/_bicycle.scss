@@ -1,0 +1,15 @@
+// bicycle
+
+.p-bicycle ul {
+          display: flex;
+          justify-content: space-between;
+
+          li {
+                    width: 32%;
+          }
+
+          .c-card_title {
+                    font-size: 1rem;
+                    margin: 10px 0;
+          }
+}
