@@ -1,15 +1,16 @@
 // bicycle
 
-.p-bicycle ul {
+.p-bicycle__list {
           display: flex;
           justify-content: space-between;
+}
 
-          li {
-                    width: 32%;
-          }
+.p-bicycle__item {
+          width: 32%;
+}
 
-          .c-card_title {
-                    font-size: 1rem;
-                    margin: 10px 0;
-          }
+.p-bicycle__title {
+          font-size: 1rem;
+          margin: 10px 0;
+          font-weight: bold;
 }

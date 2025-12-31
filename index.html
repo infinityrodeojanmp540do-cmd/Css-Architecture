@@ -8,25 +8,30 @@
           <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="icon" href="img/favicon.ico">
-          <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
           <link rel="stylesheet" href="css/scss/style.css">
 </head>
 
 <body>
           <header class="l-header">
-                              <h1 class="p-siteTitle"><a href="index.html"><img src="img/logo.svg" alt="Profile"></a>
-                              </h1>
-                              <nav>
-                                        <ul>
-                                                  <li><a href="#about">About</a></li>
-                                                  <li><a href="#bicycle">Bicycle</a></li>
-                                        </ul>
-                              </nav>
+                    <h1 class="p-siteTitle"><a class="p-siteTitle__link" href="index.html"><img src="img/logo.svg" alt="Profile"></a>
+                    </h1>
+                    <nav class="p-headerNav">
+                              <ul class="p-headerNav__list">
+                                        <li class="p-headerNav__item">
+                                                  <a class="p-headerNav__link" href="#about">About</a>
+                                        </li>
+                                        <li class="p-headerNav__item">
+                                                  <a class="p-headerNav__link"  href="#bicycle">Bicycle</a>
+                                        </li>
+                              </ul>
+                    </nav>
           </header>
 
           <main>
                     <div class="l-main">
-                              <img src="img/mainvisual.jpg" alt="テキストテキストテキスト">
+                              <div class="p-mv-img">
+                                        <img src="img/mainvisual.jpg" alt="テキストテキストテキスト">
+                              </div>
                     </div>
 
                     <section class="p-about">
@@ -49,20 +54,20 @@
                     <section class="p-bicycle">
                               <div class="l-wrapper">
                                         <h2 class="c-sectionTitle">Bicycle</h2>
-                                        <ul>
-                                                  <li>
+                                        <ul class="p-bicycle__list">
+                                                  <li class="p-bicycle__item">
                                                             <img src="img/bicycle1.jpg" alt="テキストテキストテキスト">
-                                                            <h3 class="c-card_title">タイトルタイトル</h3>
+                                                            <h3 class="p-bicycle__title">タイトルタイトル</h3>
                                                             <p>テキストテキストテキスト</p>
                                                   </li>
-                                                  <li>
+                                                  <li class="p-bicycle__item">
                                                             <img src="img/bicycle2.jpg" alt="テキストテキストテキスト">
-                                                            <h3 class="c-card_title">タイトルタイトル</h3>
+                                                            <h3 class="p-bicycle__title">タイトルタイトル</h3>
                                                             <p>テキストテキストテキスト</p>
                                                   </li>
-                                                  <li>
+                                                  <li class="p-bicycle__item">
                                                             <img src="img/bicycle3.jpg" alt="テキストテキストテキスト">
-                                                            <h3 class="c-card_title">タイトルタイトル</h3>
+                                                            <h3 class="p-bicycle__title">タイトルタイトル</h3>
                                                             <p>テキストテキストテキスト</p>
                                                   </li>
                                         </ul>
