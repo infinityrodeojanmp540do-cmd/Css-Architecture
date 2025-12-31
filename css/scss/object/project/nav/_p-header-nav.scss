@@ -1,0 +1,18 @@
+// nav
+
+.p-headerNav__list {
+  display: flex;
+  padding: 10px 0;
+}
+
+.p-headerNav__item {
+  margin-left: 30px;
+}
+
+.p-headerNav__link {
+  color: #24292e;
+  font-size: 0.9rem;
+    &:hover {
+      color: rgb(148, 147, 147);
+    }
+}

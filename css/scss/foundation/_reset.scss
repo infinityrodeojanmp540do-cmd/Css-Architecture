@@ -1,6 +1,31 @@
 // reset.css
 
-* {
+/* 1. 全要素のボックスサイズを統一 */
+*, *::before, *::after {
+          box-sizing: border-box;
+        }
+        
+        /* 2. マージンを0にして、フォントを親から継承 */
+        * {
           margin: 0;
           padding: 0;
-}
+          font: inherit;
+        }
+        
+        /* 3. 画像がはみ出さないように設定 */
+        img, picture, video, canvas, svg {
+          display: block;
+          max-width: 100%;
+        }
+        
+        /* 4. 本文の行間を調整（読みやすさ：ニュアンスの保護） */
+        body {
+          line-height: 1.5;
+          -webkit-font-smoothing: antialiased;
+        }
+
+        * {
+          list-style: none;
+          text-decoration: none;
+          background-color: transparent;
+        }

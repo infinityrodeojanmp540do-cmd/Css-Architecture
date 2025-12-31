@@ -1,0 +1,21 @@
+// bicycle
+
+.p-bicycle__list {
+          display: flex;
+          justify-content: space-between;
+}
+
+.p-bicycle__item {
+          width: 32%;
+}
+
+.p-bicycle__item img {
+          display: block;
+          margin-bottom: 15px;
+}
+
+.p-bicycle__title {
+          font-size: 1rem;
+          margin-bottom: 10px;
+          font-weight: bold;
+}
